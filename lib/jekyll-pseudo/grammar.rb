@@ -8,7 +8,7 @@ module Jekyll
         mappings = [
           [/\#(.*$)/, :comment],
           [/\b([A-Z]\w+)/, :sym],
-          [/(\w+)(?=[({\[])/, :fn],
+          [/(\w+)(?=[(])/, :fn],
           [/(\".*?\")/, :string],
           [/(<-|->|\+\+|<=|>=|--)/, :op],  # try these operators first
           [/([-()\[\]{}=<>+*])/, :op],     # and these second

@@ -1,5 +1,5 @@
 module Jekyll
-  module Pseudo
+  module PseudoCode
     class Grammar
       # parse a block of text, using the given brush to format output (works in a single pass)
       def format(txt, brush)

@@ -1,14 +1,14 @@
-require_relative '../lib/jekyll-pseudo.rb'
-require_relative '../lib/jekyll-pseudo/mock_brush.rb'
+require_relative '../lib/jekyll-pseudocode.rb'
+require_relative '../lib/jekyll-pseudocode/mock_brush.rb'
 
-include Jekyll::Pseudo
+include Jekyll::PseudoCode
 
 describe Grammar do
   def format(txt)
     g = Grammar.new
     g.format(txt, MockBrush.new)
   end
-  
+
   describe "#format" do
     it "ignores plain text" do
       format("plain text").should eql "plain text"
@@ -36,7 +36,7 @@ describe Grammar do
     it 'formats variables' do
       format('x_0').should eql ('xsub(0)')
       format('x_i').should eql ('xsub(i)')
-    end    
+    end
 
     it 'formats functions' do
       format('fn(b,c)').should eql('fn(fn)op(()b,cop())')

@@ -1,8 +1,8 @@
-require 'jekyll-pseudo/brush'
+require 'jekyll-pseudocode/brush'
 
 module Jekyll
-  module Pseudo
-    class HtmlBrush < Jekyll::Pseudo::Brush
+  module PseudoCode
+    class HtmlBrush < Jekyll::PseudoCode::Brush
       def sym(txt)
         "<span class='symbol'>#{txt}</span>"
       end

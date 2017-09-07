@@ -1,8 +1,8 @@
-# jekyll-pseudo
-A pseudocode/algorithm formatter for sites powered by jekyll.
+# jekyll-pseudocode
+A pseudocode/algorithm formatter for sites powered by jekyll. This is a fork from wkm/jekyll-pseudo.
 
 Sometimes you don't want to use a particular programming language to
-demonstrate a concept because of the syntactic overhead. Jekyll-Pseudo lets
+demonstrate a concept because of the syntactic overhead. jekyll-pseudocode lets
 you use a gently styled free-formated representation.
 
 ## Language
@@ -41,4 +41,4 @@ Output is annotated with `<span>` classes and can be styled using CSS. Typically
 
 With a bit of formatting, the above code becomes:
 
-![Image](https://raw.github.com/wkm/jekyll-pseudo/master/doc/samplecode.png)
+![Image](https://raw.github.com/wkm/jekyll-pseudocode/master/doc/samplecode.png)

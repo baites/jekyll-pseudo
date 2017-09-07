@@ -1,8 +1,8 @@
-require_relative '../lib/jekyll-pseudo.rb'
-require_relative '../lib/jekyll-pseudo/mock_brush.rb'
+require_relative '../lib/jekyll-pseudocode.rb'
+require_relative '../lib/jekyll-pseudocode/mock_brush.rb'
 # require 'spec_helper'
 
-include Jekyll::Pseudo
+include Jekyll::PseudoCode
 
 describe HtmlBrush do
   def format(txt)

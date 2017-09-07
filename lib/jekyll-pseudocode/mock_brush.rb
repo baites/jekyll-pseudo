@@ -1,7 +1,7 @@
-require 'jekyll-pseudo/brush'
+require 'jekyll-pseudocode/brush'
 
 module Jekyll
-  module Pseudo
+  module PseudoCode
     class MockBrush < Brush
       def sym(txt)
         "sym(#{txt})"

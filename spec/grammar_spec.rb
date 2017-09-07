@@ -40,8 +40,6 @@ describe Grammar do
 
     it 'formats functions' do
       format('fn(b,c)').should eql('fn(fn)op(()b,cop())')
-      format('fn[b,c]').should eql('fn(fn)op([)b,cop(])')
-      format('fn{b,c}').should eql('fn(fn)op({)b,cop(})')
     end
 
     it 'strips leading whitespace' do

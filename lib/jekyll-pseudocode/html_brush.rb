@@ -50,7 +50,7 @@ module Jekyll
       end
 
       def plain(txt)
-        txt
+        "<span class='plain'>#{txt}</span>"
       end
     end
   end

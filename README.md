@@ -37,6 +37,6 @@ Sample output:
 ## Output
 Output is annotated with `<span>` classes and can be styled using CSS. Typically keywords are made bold and variables are italicized.
 
-With a bit of formatting, the above code becomes:
+Using the style provided in `lib/jekyll-pseudocode.css` previous markdown should be rendered as:
 
 ![Image](https://raw.github.com/baites/jekyll-pseudocode/master/doc/screenshot.png)

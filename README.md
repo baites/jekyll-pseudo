@@ -37,6 +37,18 @@ Sample output:
 ## Output
 Output is annotated with `<span>` classes and can be styled using CSS. Typically keywords are made bold and variables are italicized.
 
-Using the style provided in `lib/jekyll-pseudocode.css` previous markdown should be rendered as:
+Using the style provided in `lib/jekyll-pseudocode.scss` previous markdown should be rendered as:
 
 ![Image](https://raw.github.com/baites/jekyll-pseudocode/master/doc/screenshot.png)
+
+## Author
+Victor Bazterra ([@baites](https://github.com/baites)) fork from jekyll-pseudo
+project by Wiktor Macura ([@wkm](https://github.com/wkm)). I have done
+only minimal changes in updating some grammar. I also provided with a scss with
+the style I like.
+
+I stop working in the project so no changes are expected from me.
+
+## Acknowledgement
+Thanks Tate Tian ([@tatetian](https://github.com/tatetian)) for the great
+project.

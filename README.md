@@ -25,10 +25,8 @@ Sample output:
         result[host] <- send(host, propose(old, new))
         If result[host] = "ok"
           remaining--
-
       If remaining > 1+quorumSize/2
         success <- True
-
       For Each result
         If success
           send(host, confirm(old, new))
@@ -41,4 +39,4 @@ Output is annotated with `<span>` classes and can be styled using CSS. Typically
 
 With a bit of formatting, the above code becomes:
 
-![Image](https://raw.github.com/wkm/jekyll-pseudocode/master/doc/samplecode.png)
+![Image](https://raw.github.com/baites/jekyll-pseudocode/master/doc/jekill-pseudocode.png)

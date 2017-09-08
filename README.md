@@ -39,4 +39,4 @@ Output is annotated with `<span>` classes and can be styled using CSS. Typically
 
 With a bit of formatting, the above code becomes:
 
-![Image](https://raw.github.com/baites/jekyll-pseudocode/master/doc/jekill-pseudocode.png)
+![Image](https://raw.github.com/baites/jekyll-pseudocode/master/doc/screenshot.png)
